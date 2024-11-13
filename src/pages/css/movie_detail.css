@@ -1,0 +1,73 @@
+.movie-detail {
+    padding: 20px;
+    color: #fff;
+    background-color: rgb(54, 54, 54);
+  }
+  
+  .movie-header {
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+    background-color: #1c1c1c;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  
+  .movie-poster {
+    width: 240px;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .movie-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .movie-info h1 {
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  .rating {
+    font-size: 20px;
+    color: #ffcc00;
+    margin-top: 10px;
+  }
+  
+  .details,
+  .release-date,
+  .overview {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .cast-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .cast-member {
+    text-align: center;
+    width: 180px;
+  }
+  
+  .cast-photo {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .cast-name {
+    font-weight: bold;
+    margin-top: 8px;
+  }
+  
+  .cast-character {
+    font-size: 14px;
+    color: #aaa;
+  }
